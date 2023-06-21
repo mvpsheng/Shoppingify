@@ -1,5 +1,293 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.zoom {
+  display: grid;
+  grid-template-columns: 93.92px 1fr 389px;
+
+  height: 100vh;
+  background-color: #edddde38;
+}
+
+.lefttabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lefttabs>.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lefttabs>.tabs .icontab {
+  margin-bottom: 30px;
+}
+
+.shopcart {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(255, 157, 0);
+  border-radius: 50%;
+}
+
+.mainbody {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* shopping list */
+.shoppinglist {}
+
+.shoppinglistHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.shoppinglistHeader p {}
+
+.slogan {
+  width: 450.29px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.first-word {
+  color: #F9A109;
+}
+
+.listcatagories {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+/* Item */
+.item {
+  display: flex;
+  justify-content: space-between;
+
+  width: 182px;
+  height: 50px;
+
+  padding-left: 20px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.addicon {
+  width: 50px;
+}
+
+.rightlist {
+  background: #FFF0DE;
+}
+
+.shoppingcart {
+  padding-left: 48px;
+  padding-top: 43px;
+  padding-right: 31px;
+}
+
+.addItemarea {
+  width: 308.76px;
+  height: 129.91px;
+  background: #80485B;
+  border-radius: 24px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.source {
+  position: absolute;
+  left: 78%;
+  top: 3.5%;
+}
+
+.additemarearight {
+  width: 159.07px;
+
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+
+.additemarearight>button {
+  width: 120px;
+  height: 40px;
+  left: 1221.48px;
+  top: 115.12px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  border: none;
+  color: #34333A;
+}
+
+
+.shoppingcartbody>p {
+
+  margin-top: 42px;
+
+  width: 149px;
+  height: 30px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+
+  color: #34333A;
+  margin-bottom: 40px;
+}
+
+.selectedcatagories {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+
+  color: #828282;
+}
+
+.selectedItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectedItems>label {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+
+  color: #000000;
+}
+
+.selectedItems>button {
+  width: 68px;
+  height: 32px;
+  left: 1326.96px;
+  top: 326.56px;
+
+  border: 2px solid #F9A109;
+  border-radius: 24px;
+
+  background-color: #FFF0DE;
+
+  margin-right: 15px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #F9A10A;
+}
+
+.nameofList {
+  width: 389px;
+  height: 130.98px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  background: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameofList > input {
+  width: 309.89px;
+  height: 61.25px;
+  border: 2px solid #F9A109;
+  border-radius: 12px;
+  background: #FFFFFF;
+
+  padding-left: 20px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #BDBDBD;
+
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.nameofList > button {
+  width: 87.35px;
+  height: 63.25px;
+
+  background: #F9A109;
+  border-radius: 12px;
+
+  border: none;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -87.35px;
 }
